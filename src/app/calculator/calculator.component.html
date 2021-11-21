@@ -1,0 +1,40 @@
+
+<link rel="stylesheet" href="calculator.component.css">
+<body>
+      <h1 style="text-align: center">Calculator</h1>
+      <input [(ngModel)]="result" type="text" value="" id="operation" name="fname">
+    <div class="relative">
+        <button class="button" id="C"  value="C" (click)='onClickEvent("C")'>C</button>
+        <button class="button" id="/"  value="/" (click)='onClickEvent("/")'>/</button>
+        <button class="button" id="*"  value="*" (click)='onClickEvent("*")'>*</button>
+        <button class="button" id="-"  value="-" (click)='onClickEvent("-")'>-</button>
+    </div>
+    <div class="relative">
+      <button class="button" id="7"  value="7" (click)='onClickEvent("7")'>7</button>
+      <button class="button" id="8"  value="8" (click)='onClickEvent("8")'>8</button>
+      <button class="button" id="9"  value="9" (click)='onClickEvent("9")'>9</button>
+      <button class="button" id="+"  value="+" (click)='onClickEvent("+")'>+</button>
+    </div>
+    <div class="relative">
+      <button class="button" id="4"  value="4" (click)='onClickEvent("4")'>4</button>
+      <button class="button" id="5"  value="5" (click)='onClickEvent("5")'>5</button>
+      <button class="button" id="6"  value="6" (click)='onClickEvent("6")'>6</button>
+      <button class="button" id="^"  value="^" (click)='onClickEvent("^")'>^</button>
+    </div>
+    <div class="relative">
+      <button class="button" id="0"  value="0" (click)='onClickEvent("0")'>0</button>
+      <button class="button" id="1"  value="1" (click)='onClickEvent("1")'>1</button>
+      <button class="button" id="2"  value="2" (click)='onClickEvent("2")'>2</button>
+      <button class="button" id="3"  value="3" (click)='onClickEvent("3")'>3</button>
+    </div>
+    <div class="relative">
+      <button class="button" id="(-)"  value="-" (click)='onClickEvent("(-)")'>+/-</button>
+      <button class="button" id="."  value="." (click)='onClickEvent(".")'>.</button>
+      <button class="button" id="="  value="=" (click)='onClickEvent("=")'>=</button>
+    </div>
+      <div class="relative">
+        <button class="button" id="^2"  value="^2" (click)='onClickEvent("^2")'>X^2</button>
+        <button class="button" id="r"  value="r" (click)='onClickEvent("r")'>ROOT(X)</button>
+      </div>
+</body>
+

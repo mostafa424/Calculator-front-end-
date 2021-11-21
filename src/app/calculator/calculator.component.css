@@ -1,0 +1,33 @@
+input{
+  margin-left:350px;
+  width: 800px;
+  font-size: 40px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+
+}
+.relative {
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  padding: 30px 16px;
+  text-align: center;
+  margin-left: 20px;
+  border: gray;
+  background-color: #e7e7e7;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover{
+  background-color: darkgray;
+}
+button:active{
+  background-color: dimgray;
+}
+
